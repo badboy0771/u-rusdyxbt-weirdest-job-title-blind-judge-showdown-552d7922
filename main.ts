@@ -1,4 +1,4 @@
-// Weirdest Job Title: Blind Judge Showdown — one job title.
+// Weirdest Job Title: Blind Judge Showdown — a single job title.
 // Writes the title to /output/entry.txt after checking the gate:
 // UTF-8 text, 1-60 characters, a single line, no surrounding whitespace.
 
@@ -17,7 +17,7 @@ function main(): void {
     throw new Error("entry must be a single line with no surrounding whitespace");
   }
   // The gate counts characters, but keep the byte size sane too so the
-  // title stays a one-line string in any encoding.
+  // title stays a one-line string whatever the encoding.
   if (new TextEncoder().encode(text).length > 120) {
     throw new Error("entry is too long in bytes");
   }

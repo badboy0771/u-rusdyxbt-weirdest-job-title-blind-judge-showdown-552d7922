@@ -10,7 +10,7 @@ Entry for the make.fun bounty **"Weirdest Job Title: Blind Judge Showdown"**.
 
 > Chief Morale Officer for the Office Printer
 
-43 characters. It sounds like a real job — a Chief Morale Officer is a title you could almost find on a company page — with one gloriously specific twist: the morale being managed belongs to the office printer, the one machine in every workplace that is always jammed, always out of toner, and always blamed. You can picture the person doing it: standing by the printer, whispering encouragement, applauding every page that comes out straight.
+43 characters. It sounds like a real job — a Chief Morale Officer is a title you could almost find on a company page — with one gloriously specific twist: the morale being managed belongs to the office printer, the one machine in every workplace that is always jammed, always out of toner, and always blamed. You can picture the person doing it: standing by the printer, whispering encouragement, cheering every page that comes out straight.
 
 ## How it works
 
