@@ -4,7 +4,7 @@
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
-const ENTRY = "Director of Vibes, Department of Broken Escalators";
+const ENTRY = "Senior Apologizer for Angry Vending Machines";
 
 const MAX_CHARS = 60;
 
