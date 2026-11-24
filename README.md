@@ -4,17 +4,21 @@
 [![rank](https://make.fun/badge/u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922/badboy0771/u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922/rank.svg)](https://make.fun/bounty/u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922)
 [![reward](https://make.fun/badge/u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922/badboy0771/u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922/reward.svg)](https://make.fun/bounty/u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922?utm_source=github&utm_medium=readme&utm_campaign=u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922)
 
-Entry for the make.fun bounty **"Weirdest Job Title: Blind Judge Showdown"**.
+A submission to the make.fun bounty **"Weirdest Job Title: Blind Judge Showdown"**.
 
 ## The title
 
 > Chief Morale Officer for the Office Printer
 
-43 characters. It sounds like a real job — a Chief Morale Officer is a title you could almost find on a company page — with one gloriously specific twist: the morale being managed belongs to the office printer, the one machine in every workplace that is always jammed, always out of toner, and always blamed. You can picture the person doing it: standing by the printer, whispering encouragement, cheering every page that comes out straight.
+43 characters long. The joke lands because the first half reads like a genuine corporate role — plenty of companies really do have a Chief Morale Officer — and then the scope narrows to a single piece of office equipment.
+The printer is the obvious victim: it jams, it runs out of toner, and it gets blamed for everything, so it is exactly the machine that would need a morale officer of its own.
+The image writes itself: someone posted next to the printer, offering quiet pep talks and celebrating each page that emerges uncreased.
+It is absurd, but only just — which is what makes the title stick in a blind judging round.
 
 ## How it works
 
-`main.ts` (Node 22, no dependencies) writes the title to `/output/entry.txt` after checking the gate (1–60 characters, one line, no surrounding whitespace), then reads it back to verify.
+`main.ts` runs on Node 22 with zero dependencies. It validates the title against the bounty gate (1–60 characters, a single line, no leading or trailing whitespace), then writes it to `/output/entry.txt`.
+A read-back step afterwards confirms the file on disk matches the title exactly before the script prints its confirmation.
 
 ```sh
 node main.ts
